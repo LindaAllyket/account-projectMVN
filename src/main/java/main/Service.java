@@ -1,12 +1,12 @@
 package main;
-//import main.AccountApplication;
-//import java.util.Map;
+import main.AccountApplication;
+
 
 import org.json.JSONObject;
 
 public class Service {
 	private int count;
-	static JSONObject json = new JSONObject();
+	
 	 
 	
 	public void addAccount(Account account) {
@@ -17,6 +17,10 @@ public class Service {
 	public void getAccount(int num) {
 		AccountApplication.accounts.get(num);
 	}
+	
+//	static public void convertToJSON() {
+//		  JSONObject json = new JSONObject(); 			
+//	}
 	
 	
 }
