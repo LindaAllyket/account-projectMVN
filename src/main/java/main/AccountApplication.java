@@ -19,7 +19,6 @@ public class AccountApplication {
 		System.out.println("Hello world to the standard out");
 
 		Service serv = new Service();
-		// serv.convertToJSON();
 		Account newacc = new Account();
 		
 		newacc.setAccountNumber(123);
