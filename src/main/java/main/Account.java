@@ -5,7 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity // to make it identifiable and manageable
+@Entity // to make it identifiable and manageable i.e. bean
 public class Account {
 
 	private String firstName;
