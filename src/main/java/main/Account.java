@@ -1,8 +1,18 @@
 package main;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity // to make it identifiable and manageable
 public class Account {
+
 	private String firstName;
 	private String lastName;
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+
 	private int accountNumber;
 
 	public Account() {
