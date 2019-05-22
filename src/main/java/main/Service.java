@@ -1,11 +1,10 @@
 package main;
-import main.AccountApplication;
+//import main.AccountApplication;
 
-
-import org.json.JSONObject;
+//import org.json.JSONObject;
 
 public class Service {
-	private int count;
+	public int count;
 	
 	 
 	
