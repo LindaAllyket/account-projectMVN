@@ -4,7 +4,7 @@ package main;
 //import org.json.JSONObject;
 
 public class Service {
-	private int count;
+	public int count;
 	
 	 
 	

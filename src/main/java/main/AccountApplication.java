@@ -8,7 +8,7 @@ import com.google.gson.Gson;
 
 public class AccountApplication {
 
-	static Map<Integer, Account> accounts = new HashMap<>();
+	public static Map<Integer, Account> accounts = new HashMap<>();
 
 	public AccountApplication() {
 
