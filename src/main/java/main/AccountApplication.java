@@ -3,13 +3,13 @@ package main;
 import java.util.HashMap;
 import main.Service;
 import java.util.Map;
-import org.json.JSONObject;
+//import org.json.JSONObject;
 
 import com.google.gson.Gson;
 
 public class AccountApplication {
 
-	static Map<Integer, Account> accounts = new HashMap<>();
+	public static Map<Integer, Account> accounts = new HashMap<>();
 
 	public AccountApplication() {
 
@@ -19,7 +19,7 @@ public class AccountApplication {
 		System.out.println("Hello world to the standard out");
 
 		Service serv = new Service();
-		Account newacc = new Account();
+		Account newacc = new Account();  
 		
 		newacc.setAccountNumber(123);
 		newacc.setFirstName("Linda");
